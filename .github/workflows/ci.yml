@@ -13,6 +13,6 @@ jobs:
               with:
                 node-version: 21
             - name: "check node version"
-              uses: node --version
-              
+              run : node --version
+
 
