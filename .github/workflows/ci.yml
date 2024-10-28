@@ -19,5 +19,5 @@ jobs:
             - name: "install dependencies"
               run:  npm install
 
-            -name: "list down the directories"
-             run:  ls            
+            - name: "list down the directories"
+              run:  ls            
