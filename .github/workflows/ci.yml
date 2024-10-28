@@ -13,7 +13,7 @@ jobs:
               with:
                 node-version: '21'
             - name: "check node version"
-              run : node --version
+              run: node --version
 
             - name: "clone the repository"
               uses:  actions/checkout@v2
